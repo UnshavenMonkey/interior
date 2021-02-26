@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(images/sliderimg.jpg);
+}
+.slider-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    }
+
+.menu-list {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-weight: 300;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.menu-link-active {
+    font-weight: 700;
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
