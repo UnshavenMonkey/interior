@@ -11,29 +11,39 @@
 .slider {
     height: 800px;
     background-image: url(images/sliderimg.jpg);
+    padding-right: 167px;
+    padding-left: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .slider-header {
     display: flex;
     justify-content: space-between;
+    height: 28px;
+    padding-top: 62px;
 }
 
 .menu {
     display: flex;
     justify-content: space-around;
-    }
+    height: 10px;
+    width: 490px;
+    text-align: right;
+}
 
 .menu-list {
     list-style-type: none;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 .menu-link {
     text-decoration: none;
     font-weight: 300;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: Montserrat, AdobeInvisFont, MyriadPro-Regular;
     font-size: 14px;
-    line-height: 48px;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -42,4 +52,85 @@
     font-weight: 700;
     color: #212121;
     border-bottom: 3px solid #212121;
+}
+
+.slider-content {
+    
+}
+
+.slider-content-tag {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #43a047;
+}
+
+.slider-content-name {
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    text-align: left;
+    text-transform: uppercase;
+    color: #212121;
+    width: 500px;
+}
+
+.slider-content-details {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: left;
+    color: #6C6C6C;
+    margin-bottom: 31px;
+    width: 459px;
+}
+
+.button-order {
+    width: 212px;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(33,33,33,0.34);
+    border-radius: 22.5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.arrow {
+    margin: 0 0 0 10px;
+}
+
+.slider-footer {
+    display: flex;
+    justify-content: center;
+}
+    
+.slider-ball {
+    display: block;
+    width: 35px;
+    height: 35px;
+    opacity: 0.2;
+    background-color: #212121;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.active-ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    opacity: 1;
+    margin-top: 2px;
 }
