@@ -293,7 +293,7 @@
 }
 
 .trending-product {
-    height: 869px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -342,6 +342,133 @@
 }
 
 .trending-image {
+    margin-bottom: 20px;
+}
+
+.hot-deals {
+    height: 800px;
+    background-image: url(images/slider@1X.png);
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 97px;
+}
+
+.hot-deals-tag {
+    opacity:1;
+    color: #E53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    align: left;
+    margin-top: 287px;
+    margin-bottom: 15px;
+}
+
+.hot-deals-name {
+    opacity: 1;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 62px;
+    align: left;
+    font-weight: 100;
     margin-bottom: 30px;
 }
-.
+
+.hot-deals-details {
+    display: block;
+    width: 458px;
+    opacity: 1;
+    color: #6C6C6C;
+    font-family: Montserrat;
+    font-size: 14px;
+    align: left;
+    margin-bottom: 30px;
+}
+
+.button-order {
+    margin-bottom: 220px;
+}
+
+.exclusive-product {
+    width: 1170px;
+    height: 570px;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 97px;
+}
+.exclusive-left {
+    width: 570px;
+    padding-top: 200px;
+    padding-left: 30px;
+    background-image: url(images/product-1-lg@1X.png);
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exclusive-right {
+    width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-exclusive-product {
+    margin-bottom: 30px;
+}
+
+.mobile-app {
+    height: 516px;
+    background-image: url(images/back-img@1X.jpeg);
+    padding-left: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobile-app-tag {
+    opacity: 1;
+    color: #6C6C6C;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    align: left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.mobile-app-name {
+    display: block;
+    width: 407px;
+    opacity: 1;
+    color: #212121;
+    font-family:Montserrat;
+    font-weight: 100;
+    font-size: 62px;
+    align: left;
+    padding-bottom: 15px;
+}
+
+.mobile-app-details {
+    display: block;
+    width: 413px;
+    opacity: 1;
+    color: #6C6C6C;
+    font-family: Montserrat;
+    font-size: 22px;
+    align: left;
+    padding-bottom: 15px;
+}
+
+.menu-store {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-list-store {
+    list-style-type: none;
+}
