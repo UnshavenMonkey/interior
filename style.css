@@ -291,3 +291,57 @@
     text-align: left;
     margin-bottom: 30px;
 }
+
+.trending-product {
+    height: 869px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 97px;
+    margin-right: 97px;
+}
+
+.trending-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 119px 0 64px 0;
+}
+
+.trending-title-product {
+    opacity: 1;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.trending-menu-explore {
+    text-decoration: none;
+    color: #212121;
+    text-align: right;
+}
+
+.trending-explore {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    text-decoration: none;
+    align-self: center;
+} 
+
+.trending-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.trending-image {
+    margin-bottom: 30px;
+}
+.
