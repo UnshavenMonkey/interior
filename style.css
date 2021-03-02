@@ -398,6 +398,7 @@
     justify-content: space-between;
     margin: 120px 97px;
 }
+
 .exclusive-left {
     width: 570px;
     padding-top: 200px;
@@ -469,6 +470,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .menu-list-store {
     list-style-type: none;
 }
