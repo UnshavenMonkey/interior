@@ -474,3 +474,36 @@
 .menu-list-store {
     list-style-type: none;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(images/footer-back.png);
+    height: 385px;
+    
+}
+
+.contact-us {
+    width: 221px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 97px;
+    margin-top: 120px;
+}
+
+.headcontactus {
+    display: block;
+}
+
+.parcontactus {
+    display: block;
+}
+
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+}
