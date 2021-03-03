@@ -481,7 +481,6 @@
     flex-wrap: wrap;
     background-image: url(images/footer-back.png);
     height: 385px;
-    
 }
 
 .contact-us {
@@ -496,14 +495,140 @@
 
 .headcontactus {
     display: block;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
 }
 
 .parcontactus {
     display: block;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
 }
-
 
 .footer-icon {
     width: 25px;
     height: 25px;
+}
+
+.usefull {
+    width: 422px;
+    height: 101px;
+    margin-top: 120px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.intouch {
+    width: 372px;
+    height: 148px;
+    margin-top: 120px;
+    margin-right: 97px;
+    margin-left: 77px;
+}
+
+.copyright {
+    margin-left: 97px;
+    margin-bottom: 39px;
+    margin-top: 77px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6c6c6c;
+}
+
+.social-link {
+    height: 28px;
+    margin:70px 0 30px 158px; 
+}
+
+.terms {
+    margin: 67px 97px 38px 150px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6c6c6c;    
+}
+
+.headusefull {
+    width: 390px;
+}
+.parusefull {
+    display: block;
+    margin-top: 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.parusleft {
+    width: 137px;
+}
+
+.parusright {
+    width: 187px;
+}
+
+.headintouch {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+}
+
+.parintouch {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    margin: 24px 0 25px 0;
+}
+
+.emailform {
+    display: flex;
+    width: 371px;
+    height: 49px;
+    background-color: white;
+}
+
+.inputemail {
+    width: 320px;
+    height: 49px;
+    border: 1px solid #d9dee1;
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
+.buttonemail {
+    width: 49px;
+    height: 51px;
+    background-color: white;
+    border: 1px solid #d9dee1;
 }
