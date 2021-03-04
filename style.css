@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .slider-header {
     display: flex;
     justify-content: space-between;
@@ -89,7 +90,7 @@
     width: 212px;
     height: 45px;
     background-color: #ffffff;
-    box-shadow: 0px 2px 5px 0px rgba(33,33,33,0.34);
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
     border-radius: 22.5px;
     font-family: Montserrat;
     font-size: 18px;
@@ -112,7 +113,7 @@
     display: flex;
     justify-content: center;
 }
-    
+
 .slider-ball {
     display: block;
     width: 35px;
@@ -145,10 +146,11 @@
     margin: 120px 97px 50px 97px;
 }
 
-.tab-menu-left{
+.tab-menu-left {
     display: flex;
     justify-content: space-around;
 }
+
 .tab-menu-list {
     list-style-type: none;
 }
@@ -211,7 +213,7 @@
     height: 48px;
     font-weight: 700;
     background-color: #ffffff;
-    box-shadow: 0px 2px 5px 0px rgba(33,33,33,0.34);
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
     border-radius: 24px;
     text-align: center;
     text-decoration: none;
@@ -223,7 +225,7 @@
     font-size: 22px;
     line-height: 29px;
     font-weight: 700;
-    color: #212121;  
+    color: #212121;
     text-align: center;
 }
 
@@ -281,7 +283,7 @@
 }
 
 .promo-product-details {
-    display:block;
+    display: block;
     width: 374px;
     font-family: Montserrat;
     font-size: 14.1px;
@@ -333,7 +335,7 @@
     color: #212121;
     text-decoration: none;
     align-self: center;
-} 
+}
 
 .trending-products {
     display: flex;
@@ -356,7 +358,7 @@
 }
 
 .hot-deals-tag {
-    opacity:1;
+    opacity: 1;
     color: #E53935;
     font-family: Montserrat;
     font-size: 18px;
@@ -447,7 +449,7 @@
     width: 407px;
     opacity: 1;
     color: #212121;
-    font-family:Montserrat;
+    font-family: Montserrat;
     font-weight: 100;
     font-size: 62px;
     align: left;
@@ -551,7 +553,7 @@
 
 .social-link {
     height: 28px;
-    margin:70px 0 30px 158px; 
+    margin: 70px 0 30px 158px;
 }
 
 .terms {
@@ -562,12 +564,13 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #6c6c6c;    
+    color: #6c6c6c;
 }
 
 .headusefull {
     width: 390px;
 }
+
 .parusefull {
     display: block;
     margin-top: 25px;
@@ -631,4 +634,78 @@
     height: 51px;
     background-color: white;
     border: 1px solid #d9dee1;
+}
+
+.container-contacts {
+    width: 1367px;
+    margin: 0 auto;
+}
+
+.header-contacts {
+    height: 361px;
+    background-image: url(images/headercontacts.png);
+    padding-left: 97px;
+    padding-right: 168px;
+}
+
+.contactuscontacts {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    align: left;
+    margin-top: 171px;
+    margin-bottom: 57px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    padding: 69px 97px 122px 97px;
+}
+
+.adress {
+    width: 371px;
+    height: 371px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #6c6c6c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #9c9c9c;
+
+}
+
+.locationiconcontact {
+    margin-top: 39px;
+}
+
+.contact-head-california {
+    margin-top: 34px;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.contact-adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+    height: 138px;
+}
+
+.conactcalifornia {
+    color: #212121;
+}
+
+.californiastreet {
+    font-weight: 300;
 }
