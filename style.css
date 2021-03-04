@@ -754,10 +754,120 @@
 .product-tab-menu-list {
     padding-left: 20px;
 }
+
 .product-tab-menu-list-thin {
     border-bottom: 1px solid #6c6c6c;
 }
 
 .product-tab-menu-list-active {
     border-bottom: 3px solid #212121;
+}
+
+.container-deails {
+    width: 1367px;
+    margin: 0 auto;
+}
+
+.tab-menu-deails {
+    list-style-type: none;
+    height: 71px;
+    background-image: url(images/back-details.png);
+    display: flex;
+    justify-content: center;
+}
+
+.tab-menu-deails-list {
+    display: flex;
+    align-content: center;
+    padding-top: 5px;
+}
+
+.tab-menu-deails-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    margin: 20px;
+}
+
+.tab-menu-deails-link-active {
+    color: #212121;
+}
+
+.product-deails-content-name {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+    margin-top: 47px;
+}
+
+.product-deails-content-tag {
+    font-family: Montserrat;
+    font-size: 18.1px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #e53935;
+    margin-top: 20px;
+}
+
+.product-deails-content-price {
+    font-family: Gotham;
+    font-size: 36.1px;
+    line-height: 48px;
+    font-weight: 300;
+    color: #212121;
+    margin-top: 30px;
+}
+
+.product-deails-content-price>span {
+    font-size: 72.1px;
+    text-transform: uppercase;
+}
+
+.deails-button-order {
+    width: 510px;
+    height: 71px;
+    color: #ffffff;
+    background-color: #f44336;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    border-radius: 35px;
+    font-size: 22px;
+    line-height: 71px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-top: 30px;
+}
+
+.product-deails-content-details {
+    margin-bottom: 50px;
+}
+
+.product-deails-slider-content {
+    display: flex;
+    margin-left: 97px;
+    margin-right: 130px;
+    justify-content: space-between;
+    
+}
+
+.product-deails-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-deails-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
