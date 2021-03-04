@@ -709,3 +709,55 @@
 .californiastreet {
     font-weight: 300;
 }
+
+.container-product {
+    width: 1367px;
+    margin: 0 auto;
+}
+
+.product-products {
+    width: 1170px;
+    height: 1690px;
+    margin: 50px 97px 0 97px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products-products-image {
+    margin-bottom: 30px;
+}
+
+.product-tab-menu {
+    display: flex;
+    list-style-type: none;
+    width: 647px;
+    margin: 70px 0 50px 97px;
+}
+
+.product-tab-menu-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    text-align: left;
+}
+
+.product-tab-menu-link-active {
+    color: #212121;
+}
+
+.product-tab-menu-list {
+    padding-left: 20px;
+}
+.product-tab-menu-list-thin {
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.product-tab-menu-list-active {
+    border-bottom: 3px solid #212121;
+}
