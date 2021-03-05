@@ -23,6 +23,7 @@
     justify-content: space-between;
     height: 28px;
     padding-top: 62px;
+    margin-bottom: 25px;
 }
 
 .menu {
@@ -845,10 +846,17 @@
     text-transform: uppercase;
     letter-spacing: 0.2em;
     margin-top: 30px;
+    margin-bottom: 45px;
 }
 
 .product-deails-content-details {
-    margin-bottom: 50px;
+    align-self: start;
+    font-family: Montserrat;
+    font-size: 16.1px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #212121;
 }
 
 .product-deails-slider-content {
@@ -856,7 +864,7 @@
     margin-left: 97px;
     margin-right: 130px;
     justify-content: space-between;
-    
+    margin-top: 70px;
 }
 
 .product-deails-slider {
@@ -870,4 +878,42 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 45px;
+}
+
+.product-deails-related {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-deails-related-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 210px 97px 60px 97px;
+}
+
+.product-deails-relaited-title-left {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
+
+.product-deails-relaited-title-right {
+    font-family: Montserrat;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+}
+
+.product-deails-related-products {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 97px 120px 97px;
 }
