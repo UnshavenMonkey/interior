@@ -316,7 +316,6 @@
 }
 
 .trending-product {
-    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -968,8 +967,22 @@
     }
 }
 
+@media screen and (max-width: 930px) {
+    .trending-products {
+        justify-content: center;
+    }
+    .trending-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+    .trending-title-product {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 800px) {
-    .slider {
+    .slider, .hot-deals {
         background-position: center;
     }
     .slider-header {
@@ -999,6 +1012,9 @@
     .tab-content {
         width: auto;
         margin: 0 5% 8% 5%;
+    }
+    .hot-deals {
+        align-items: center;
     }
 }
 
