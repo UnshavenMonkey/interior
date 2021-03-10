@@ -952,8 +952,19 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .slider {
+    .slider, .promo-product-left, .promo-product-right {
         background-position: center;
+        background-repeat: no-repeat;
+    }
+    .promo-product {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .promo-product-left, .promo-product-right {
+        align-items:center;
+    }
+    .tab-menu {
+        margin: 55px 97px 50px 97px;
     }
 }
 
