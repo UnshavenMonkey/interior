@@ -412,7 +412,6 @@
 
 .exclusive-product {
     max-width: 1170px;
-    height: 570px;
     display: flex;
     justify-content: space-between;
     margin: 120px 97px;
@@ -941,6 +940,16 @@
     margin: 0 97px 120px 97px;
 }
 
+@media screen and (max-width: 1360px) {
+    .footer {
+        box-sizing: border-box;
+        padding: 50px 97px;
+    }
+    .contact-us, .usefull, .intouch, .copyright, .social-link, .terms {
+        margin: 0;
+        padding: 0;
+    }
+}
 @media screen and (max-width: 1280px){
     .tab-content {
         display: flex;
@@ -949,11 +958,45 @@
         margin: 0 auto;  
     }
 }
+@media screen and (max-width: 1210px) {
+    .footer {
+        padding: 50px 30px;
+        height: auto;
+    }
+    .contact-us, .usefull, .intouch, .social-link, .copyright, .terms {
+        margin-bottom: 50px;
+    }
+    .copyright {
+        display: flex;
+        align-items: center;
+    }
+    .slider-header {
+        padding-top: 23px;
+        margin: 0;
+    }
+    .menu-list, .header-logo {
+        margin: 0;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .footer {
+        padding: 50px 110px;
+        height: auto;
+    }
 
 @media screen and (max-width: 1000px) {
     .slider, .promo-product-left, .promo-product-right {
         background-position: center;
         background-repeat: no-repeat;
+    }
+    .slider-header {
+        padding-top: 23px;
+    }
+    .menu-list, .header-logo {
+        margin-top: 0;
+        padding-top: 0;
     }
     .promo-product {
         flex-wrap: wrap;
@@ -964,6 +1007,10 @@
     }
     .tab-menu {
         margin: 55px 97px 50px 97px;
+    }
+    .footer {
+        padding: 50px 55px;
+        height: auto;
     }
 }
 
@@ -980,10 +1027,17 @@
         margin-bottom: 30px;
         text-align: center;
     }
+    .mobile-app {
+        background-position: center;
+
+    }
 }
 @media screen and (max-width: 800px) {
     .slider, .hot-deals {
         background-position: center;
+    }
+    .slider {
+        padding: 50px 0;
     }
     .slider-header {
         justify-content: center;
@@ -994,13 +1048,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 30%;
-        margin-bottom: 25%;
+        padding-top: 20%;
+        margin-bottom: 20%;
     }
     .slider-content-name, .slider-content-details {
         text-align: center;
         width: auto;
     }
+    .slider-footer {
+        margin: 0;
+    }
+    .slider-header {
+        padding: 0;
+    }
+    
     .tab-menu {
         flex-direction: column;
         align-items: center;
@@ -1016,11 +1077,25 @@
     .hot-deals {
         align-items: center;
     }
+    .exclusive-right {
+        justify-content: center;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .headusefull {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .tab-content {
         justify-content: center;
+    }
+    .exclusive-product {
+        margin: 50px 0 0 0;
     }
 }
 
@@ -1040,5 +1115,83 @@
     }
     .header-logo {
         margin: 0;
+    }
+    .trending-product {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .trending-products {
+        width: 100%;
+    }
+    .trending-image {
+        width: 100%;
+    }
+    .hot-deals {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .promo-product {
+        text-align: center;
+    }
+    .promo-product-left, .promo-product-right {
+        padding: 0
+    }
+    .promo-product-details {
+        width: auto;
+        text-align: center;
+    }
+    .hot-deals-details {
+        width: auto;
+    }
+    .mobile-app {
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .menu-store {
+        width: auto;
+    }
+    .usefull {
+        text-align: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+    }
+    .headusefull, .parusleft, .parusright {
+        width: auto;
+    }
+    .intouch, .emailform, .mobile-app-details, .mobile-app-name {
+        width: auto;
+        height: auto;
+    }
+    .inputemail {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1330px) {
+    .exclusive-product {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+    .exclusive-left {
+        margin: 0 0 30px 0;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 0;
+    }
+    .promo-product-tag {
+        margin: 50px 0;
+    }
+    .promo-product-name, .promo-product-details {
+        margin-bottom: 50px;
+    }
+    .button-order {
+        margin: 0 0 75px 0;
     }
 }
