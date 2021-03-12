@@ -182,7 +182,7 @@
     border-bottom: 1px solid #6c6c6c;
 }
 
-.tab-menu-link-active {
+.tab-menu-link:hover {
     color: #212121;
     border-bottom: 3px solid #212121;
     margin-right: 5px;
@@ -772,7 +772,7 @@
     text-align: left;
 }
 
-.product-tab-menu-link-active {
+.product-tab-menu-link:hover {
     color: #212121;
 }
 
@@ -780,11 +780,11 @@
     padding-left: 20px;
 }
 
-.product-tab-menu-list-thin {
+.product-tab-menu-list:after {
     border-bottom: 1px solid #6c6c6c;
 }
 
-.product-tab-menu-list-active {
+.product-tab-menu-list:hover {
     border-bottom: 3px solid #212121;
 }
 
@@ -1171,7 +1171,7 @@
     .product-tab-menu {
         flex-wrap: wrap;
     }
-    ..product-tab-menu {
+    .product-tab-menu {
         margin-bottom: 15px;
     }
     
